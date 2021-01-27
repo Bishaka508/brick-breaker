@@ -38,13 +38,13 @@ var highScore = localStorage.getItem("highScore");
 var lives = 3;
 
 const brickHit = new Audio();
-brickHit.src = "sounds/s2.mp3";
+brickHit.src = "s2.mp3";
 
 const paddleHit = new Audio();
-paddleHit.src = "sounds/boing.mp3"
+paddleHit.src = "boing.mp3"
 
 const gameOver = new Audio();
-gameOver.src = "sounds/gameover.mp3";
+gameOver.src = "gameover.mp3";
 
 
 
